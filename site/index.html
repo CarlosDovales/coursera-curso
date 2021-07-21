@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anatomia de CSS</title>
     <style>
-        p {
+        .style {
+            font-family: "Times New Roman", Times, serif;  
+            color: brown; 
+            background-color: aqua;  
+            font-style: italic;
+            font-weight:bolder;
+            font-size: 26px;
+            text-transform: lowercase;
+        }
+        .blue {
             color: blue;
+            font-size: 20px;
+            width: 200px;
+        }
+        article p {
+            color: purple;
             font-size: 20px;
             width: 200px;
         }
@@ -16,16 +30,35 @@
             font-size: 36px;
             text-align: center;
         }
+        #name {
+            color: green;
+            font-size: 20px;
+            width: 200px;
+        }
+        h2{
+            background-color: purple;
+        }
     </style>
 </head>
 <body>
     <h1>Anatomia del CSS</h1>
     <h2>Sub titulo 1</h2>
-    <p>Trabajo 1 de csss con bla bla bla Trabajo 1 de csss con bla bla blaTrabajo 1 de csss con bla bla blaTrabajo 1 de csss con bla bla blaTrabajo 1 de csss con bla bla bla  </p>
+    <p class="blue">Trabajo 1 de csss con bla bla bla Trabajo 1 de csss con bla bla blaTrabajo 1 de csss con bla bla blaTrabajo 1 de csss con bla bla blaTrabajo 1 de csss con bla bla bla  </p>
     <h2>Subtitulo 2</h2>
     
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, iusto suscipit unde quaerat ipsa necessitatibus. Accusamus inventore omnis aliquid dolore vel architecto fuga, quae vitae incidunt accusantium dolores natus explicabo!</p>
-
-    
+    <p id="name">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, iusto suscipit unde quaerat ipsa necessitatibus. Accusamus inventore omnis aliquid dolore vel architecto fuga, quae vitae incidunt accusantium dolores natus explicabo!</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga asperiores exercitationem atque temporibus magni in quidem pariatur ipsum corporis explicabo omnis modi, maiores nostrum excepturi maxime aperiam aspernatur neque repudiandae.</p>
+    </div>
+    <h2>Prueba</h2>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt eos impedit repellendus enim magni doloribus sequi officiis totam ex et! Rerum maxime deserunt impedit deleniti doloremque aspernatur asperiores commodi nobis.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quia atque obcaecati impedit pariatur veritatis quam sapiente repudiandae tenetur hic iure ad delectus? Nostrum, facilis officiis rerum doloremque ipsam soluta.</p>
+        </div>
+    </article>
+    <hr>
+    <h3 style="text-align: center;">Style Placement</h3>
+    <p class="style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident autem laudantium ullam recusandae odio rem dolore ipsam deserunt cumque vel, ab qui pariatur, eius enim iste sint odit. Deleniti, repudiandae.</p>
 </body>
 </html>
