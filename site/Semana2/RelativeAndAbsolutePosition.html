@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Relative and Absolute Element Positioning</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 5px;
+            padding: 5px;
+        }
+        h1 {
+            margin-bottom: 15px;
+        }
+        div#container {
+            background-color: #00FFFF;
+        }
+        p {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            margin-bottom: 15px;
+        }
+        #p1 {
+            background-color: blue;
+            position: relative;
+            left: 65px;
+        }
+        #p2 {
+            background-color: green;
+            position: relative;
+            top: -65px;            
+        }
+        #p3 {
+            background-color: blueviolet;
+    
+        }
+        #p4 {
+            background-color: firebrick;
+            position: relative;
+            top: -65px;
+            left: 65px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Positioning Element</h1>
+    <div id="container">
+        <p id="p1">Se calla</p>
+        <p id="p2">Oscalvo Shamir</p>
+        <p id="p3">Calviche</p>
+        <p id="p4">Paola</p>
+    </div>
 </body>
 </html>
